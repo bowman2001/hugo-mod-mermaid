@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ site.Title }}</title>
+    {{- $css := resources.Get "style.css" | minify | fingerprint -}}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+</head>
+<body>
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+{{ partial "mermaid.html" . }}
+</body>
+</html>
