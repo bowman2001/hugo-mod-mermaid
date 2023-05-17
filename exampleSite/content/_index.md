@@ -1,7 +1,7 @@
 ---
 title: hugo-mod-mermaid — a Hugo module for presenting Mermaid diagrams
 mermaid:
-  theme: dark
+  theme: base
 ---
 
 ```mermaid

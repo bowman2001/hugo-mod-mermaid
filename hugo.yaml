@@ -1,10 +1,4 @@
-title: hugo-mod-mermaid
 module:
   hugoVersion:
     min: v0.110.0
     extended: false
-
-params:
-  mermaid:
-    version: 10
-    theme: base
