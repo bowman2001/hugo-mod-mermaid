@@ -4,7 +4,7 @@ mermaid:
   theme: base
 ---
 
-```mermaid
+```mermaid {#test .fruit .banana}
 gitGraph
     commit
     commit
