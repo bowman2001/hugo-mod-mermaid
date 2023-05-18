@@ -7,4 +7,3 @@ module:
 params:
   mermaid:
     version: 10
-    theme: base
